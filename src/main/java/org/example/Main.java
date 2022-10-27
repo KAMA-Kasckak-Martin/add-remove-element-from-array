@@ -1,4 +1,6 @@
 package com.journaldev.java;
+import org.example.ArrList;
+
 import java.util.Arrays;
 
 public class Main {
@@ -16,5 +18,12 @@ public class Main {
         System.out.println("Before deletion :" + Arrays.toString(arr));
         System.out.println("After deletion :" + Arrays.toString(arr_new));
 
+
+
+        ArrList.liste();
+
+
+
     }
+
 }
